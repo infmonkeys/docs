@@ -114,6 +114,14 @@ The user input module makes it easy for developers to bridge the gap across clie
 
 Additionally, it also allows provides a wrapper on the various user input services provided by ROBLOX natively (e.g. UserInputService, PlayerMouse, ContextActionService) and consolidates them into one.
 
+This means that the module should provide an improved cross-platform development experience, by giving developers simpler tooling to create bindings for:
+- mobile devices
+- consoles
+
+It interacts with the [overhauled user interface](./ui.md).
+
+Another issue that exists with the ContextActionService GUI buttons is that the positions must be manually set and can often be inconsistent between gears. The solution for this problem is to create designated positions on the screen that developers can assign abilities to.
+
 ## Pool
 - Humanoid Detection
 - Easy Target Selection API
