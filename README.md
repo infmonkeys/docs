@@ -122,6 +122,14 @@ It interacts with the [overhauled user interface](./ui.md).
 
 Another issue that exists with the ContextActionService GUI buttons is that the positions must be manually set and can often be inconsistent between gears. The solution for this problem is to create designated positions on the screen that developers can assign abilities to.
 
+## Custom debris service
+This service is implemented for both client and server.
+
+The existing ROBLOX debris service is very ineffective and vulnerable. The custom debris service provides developers with a reliable way to schedules instances for deletion using various methods:
+- timing
+- binding to other instances
+
+
 ## Pool
 - Humanoid Detection
 - Easy Target Selection API
